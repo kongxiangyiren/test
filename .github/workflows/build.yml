@@ -5,14 +5,13 @@ on:
     branches:
       - main
 
-
 jobs:
   release:
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
-        os: [ windows-latest]
+        os: [windows-latest]
 
     steps:
       - name: Check out Git repository
