@@ -10,7 +10,8 @@
   "publish": {
     "provider": "github",
     "owner": "kongxiangyiren",
-    "repo": "test"
+    "repo": "test",
+    "releaseType": "release"
   },
   "files": [
     "dist",
